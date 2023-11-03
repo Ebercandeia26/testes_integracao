@@ -23,6 +23,7 @@ public class SaidaProdutoTest {
         verify(cadastroMock).buscarProduto(1);
         verify(produtoExistenteMock).setQuantidade(40);
         assertTrue(resultado);
+    }
 
     @Test
     public void testRemoverProdutosQuandoProdutoNaoExiste() {
